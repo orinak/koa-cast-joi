@@ -1,0 +1,30 @@
+{
+  "name": "koa-cast-joi",
+  "version": "1.0.0",
+  "description": "Koa casting middleware using Joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "prepublishOnly": "standard && npm test"
+  },
+  "keywords": [
+    "koa",
+    "cast",
+    "middleware",
+    "joi"
+  ],
+  "repository": "spb14/koa-cast-joi",
+  "author": "Che Oshn",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "standard": "^10.0.3",
+    "joi": "^11.1.1"
+  },
+  "dependencies": {
+    "dot-prop": "^4.2.0"
+  },
+  "peerDependencies": {
+    "joi": "^11.1.1"
+  }
+}
